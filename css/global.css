@@ -19,3 +19,12 @@ img{
     height: auto;
     display: block;
 }
+
+.subtitulo{
+    font-size: 9rem;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+    line-height: 1;
+}
