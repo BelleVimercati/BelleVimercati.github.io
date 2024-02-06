@@ -21,10 +21,17 @@ img{
 }
 
 .subtitulo{
-    font-size: 9rem;
-    color: #E0E0E0;
+    font-size: 8rem;
     text-transform: uppercase;
     word-break: break-all;
     max-width: 4ch;
     line-height: 1;
+}
+
+@media (max-width: 800px){
+    .subtitulo{
+        font-size: 3rem;
+        max-width: initial !important;
+        text-transform: capitalize;
+    }
 }
